@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui" xmlns:s="urn:import:com.googlecode.mgwt.ui.client.widget.panel.scroll"
+	xmlns:b="urn:import:com.googlecode.mgwt.ui.client.widget.button"
+	xmlns:v="urn:import:com.hiep.supermusic.client.view" xmlns:r="urn:import:com.googlecode.mgwt.ui.client.widget.input.radio">
+	<ui:style>
+	.homeView {
+		position: relative;
+	}
+	.buttonView {
+		border-radius: 20px !important; 
+	}
+	.container {
+		background: transparent;
+	}
+	.content-primary {
+		text-align: center !important;
+	}
+	</ui:style>
+	<g:FlowPanel styleName="{style.homeView}" width="100%" ui:field="homeViewPanel">
+		<g:FlowPanel width="100%" ui:field="containerPanel" addStyleNames="{style.container}">
+			<g:Image ui:field="avatar" width="90%"></g:Image>
+			<g:HorizontalPanel ui:field="controlPanel"></g:HorizontalPanel>
+		</g:FlowPanel>
+		<b:Button ui:field="minPlayBtn"></b:Button>
+	</g:FlowPanel>
+</ui:UiBinder> 

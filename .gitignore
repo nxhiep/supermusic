@@ -1,0 +1,8 @@
+/test-classes/
+/.classpath
+/.project
+/.settings/
+/cordova-brook.sh
+/gwt-unitCache/
+/Cordova/
+/war/images/song.mp3

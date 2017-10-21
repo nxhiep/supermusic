@@ -1,0 +1,27 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	.btn-icon-css {
+	    font-size: 2em;
+ 		color: white;
+ 		margin: 0 auto;
+    		display: block;
+	}
+	.text-name {
+		text-indent: 10px;
+	}
+	</ui:style>
+	<g:HTMLPanel ui:field="mainItem" styleName="song-item-panel">
+		<table style="width: 100%">
+			<tr>
+				<td rowspan="2" style="width: 40px;"><g:Button ui:field="playBtn" addStyleNames="{style.btn-icon-css}">Play</g:Button></td>
+				<td><g:HTML ui:field="namePanel" addStyleNames="{style.text-name} dot-dot-dot-1"></g:HTML></td>
+				<td rowspan="2" style="width: 40px;"><g:Button ui:field="downloadBtn" addStyleNames="{style.btn-icon-css}">Download</g:Button></td>
+			</tr>
+			<tr>
+				<td><g:HTML ui:field="singerPanel" addStyleNames="{style.text-name} dot-dot-dot-1"></g:HTML></td>
+			</tr>
+		</table>
+	</g:HTMLPanel>
+</ui:UiBinder> 
