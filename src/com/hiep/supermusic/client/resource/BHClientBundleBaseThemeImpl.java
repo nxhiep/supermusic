@@ -1,4 +1,4 @@
-package com.hiep.supermusic.client.resourse;
+package com.hiep.supermusic.client.resource;
 
 import com.google.gwt.core.client.GWT;
 import com.googlecode.mgwt.ui.client.MGWT;

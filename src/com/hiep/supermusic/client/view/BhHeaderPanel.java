@@ -6,12 +6,13 @@ import com.google.gwt.user.client.ui.HasVerticalAlignment;
 import com.google.gwt.user.client.ui.HorizontalPanel;
 import com.google.gwt.user.client.ui.Widget;
 import com.hiep.supermusic.client.ClientUtils;
-import com.hiep.supermusic.client.resourse.BHClientBundleBaseTheme;
+import com.hiep.supermusic.client.resource.BHClientBundleBaseTheme;
 
 public class BhHeaderPanel extends HorizontalPanel {
 	private HorizontalPanel leftPanel = new HorizontalPanel();
 	private HorizontalPanel centerPanel = new HorizontalPanel();
 	private HorizontalPanel rightPanel = new HorizontalPanel();
+
 	private BHTouchImage backButton = new BHTouchImage(BHClientBundleBaseTheme.IMPL.getBHMGWTClientBundle().back_white());
 	private BHTouchImage leftMenuButton = new BHTouchImage(BHClientBundleBaseTheme.IMPL.getBHMGWTClientBundle().menu_active(),
 			BHClientBundleBaseTheme.IMPL.getBHMGWTClientBundle().menu_active());

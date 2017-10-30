@@ -13,6 +13,9 @@
 	<inherits name="com.googlecode.mgwt.MGWT" />
 	<inherits name="com.googlecode.gwtphonegap.PhoneGap" />
 	<inherits name="com.googlecode.mgwt.linker.Linker" />
+	
+	<inherits name="com.google.web.bindery.autobean.AutoBean" />
+	<inherits name="com.reveregroup.gwt.imagepreloader.ImagePreloader" />
 
 	<!-- Specify the app entry point class. -->
 	<entry-point class='com.hiep.supermusic.client.SuperMusic' />

@@ -10,7 +10,7 @@ import com.googlecode.mgwt.dom.client.event.tap.TapEvent;
 import com.googlecode.mgwt.dom.client.event.tap.TapHandler;
 import com.hiep.supermusic.client.ClientUtils;
 import com.hiep.supermusic.client.CssToken;
-import com.hiep.supermusic.client.resourse.BHClientBundleBaseTheme;
+import com.hiep.supermusic.client.resource.BHClientBundleBaseTheme;
 import com.hiep.supermusic.client.view.BHTouchImage;
 import com.hiep.supermusic.client.view.KSSlider;
 

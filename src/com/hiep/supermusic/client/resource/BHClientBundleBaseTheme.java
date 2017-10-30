@@ -1,4 +1,4 @@
-package com.hiep.supermusic.client.resourse;
+package com.hiep.supermusic.client.resource;
 
 import com.google.gwt.resources.client.ClientBundle;
 import com.google.gwt.resources.client.ImageResource;
@@ -29,4 +29,5 @@ public interface BHClientBundleBaseTheme extends ClientBundle, BHClientBundle {
 	@Override
 	@Source("css/pause-icon.png")
 	ImageResource pauseMedia();
+	
 }
